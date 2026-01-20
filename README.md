@@ -36,4 +36,4 @@ I’m a cybersecurity enthusiast focused on offensive security, with a strong in
 
 ## Connect with me
 
-<p align="center">🔗 LinkedIn: <a href="https://www.linkedin.com/in/murad-isgandarli-530973292/" target="_blank">
+<p align="center">🔗 LinkedIn: <a href="https://www.linkedin.com/in/murad-isgandarli-530973292/" target="_blank">Murad Isgandarli
