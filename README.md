@@ -1,2 +1,2 @@
 
-![](https://komarev.com/ghpvc/?username=Velatryx)
+![](https://komarev.com/ghpvc/?username=Velatryx&abbreviated=true)
