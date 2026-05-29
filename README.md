@@ -64,7 +64,7 @@
       </p>
       <br>
       <p align="right">
-        <img src="https://komarev.com/ghpvc/?username=YOUR_USERNAME_HERE&style=for-the-badge&color=8b0000&label=SYS_VIEWS" alt="Profile Views">
+        <img src="https://komarev.com/ghpvc/?username=Velatryx&style=for-the-badge&color=8b0000&label=SYS_VIEWS" alt="Profile Views">
       </p>
     </td>
   </tr>
@@ -81,8 +81,8 @@
 <h2 id="operations" style="color:#d30000;">📂 ACTIVE OPERATIONS</h2>
 
 <p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=YOUR_USERNAME_HERE&show_icons=true&theme=radical&hide_border=true&bg_color=000000&text_color=a3a3a3&icon_color=d30000&title_color=d30000&ring_color=d30000" height="160px"/>
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=YOUR_USERNAME_HERE&theme=radical&hide_border=true&background=000000&text=a3a3a3&ring=5a0000&fire=d30000&currStreakNum=d30000&sideNums=a3a3a3" height="160px"/>
+  <img src="https://github-readme-stats.vercel.app/api?username=Velatryx&show_icons=true&theme=radical&hide_border=true&bg_color=000000&text_color=a3a3a3&icon_color=d30000&title_color=d30000&ring_color=d30000" height="160px"/>
+  <img src="https://github-readme-streak-stats.herokuapp.com/?user=Velatryx&theme=radical&hide_border=true&background=000000&text=a3a3a3&ring=5a0000&fire=d30000&currStreakNum=d30000&sideNums=a3a3a3" height="160px"/>
 </p>
 
 <h3 id="arsenal" style="color:#d30000;">🛠️ TACTICAL ARSENAL</h3>
