@@ -22,10 +22,8 @@
       <p align="center"><code style="color:#ff0033;">⛤ OFFENSIVE SECURITY DIRECTIVE ⛤</code></p>
       <br>
       <p style="color:#d3d3d3; font-family: monospace;">
-        [*] TARGET: Baku, Azerbaijan<br>
-        [*] IDENTITY: Murad Isgandarli | Penetration Tester<br>
         <br>
-        [+] Execution of advanced adversarial simulations, vulnerability discovery, and low-level exploit development. Primary operational focus on web application forensics, supply chain attack vectors, and process injection methodologies.<br>
+        [+] Interest in advanced adversarial simulations, vulnerability discovery, and low-level exploit development.<br>
         [+] Understanding the underlying mechanisms of system architecture — its faults, its structural defenses, its layout — is the fundamental prerequisite to complete system compromise.
       </p>
       <br>
