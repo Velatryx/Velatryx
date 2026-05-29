@@ -1,69 +1,75 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 400" width="100%" height="100%">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 350" width="100%" height="100%">
   <style>
-    @import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&amp;display=swap');
+    @import url('https://fonts.googleapis.com/css2?family=VT323&amp;display=swap');
     
     .bg { fill: #000000; }
     
     .pixel-text {
-      font-family: 'Press Start 2P', monospace;
-      font-size: 80px;
-      fill: #ff0000;
-      letter-spacing: 12px;
+      font-family: 'VT323', monospace;
+      font-size: 110px;
+      fill: #ff0033;
       text-anchor: middle;
-      dominant-baseline: middle;
-      text-shadow: 4px 4px 0px #8b0000, 8px 8px 0px #5a0000;
-    }
-
-    /* Massive Drip Effect using chunky rectangles */
-    .drip-block {
-      fill: #5a0000;
-      opacity: 0.8;
-      animation: drip 3s infinite;
+      letter-spacing: 2px;
+      text-shadow: 6px 6px 0px #660000;
     }
     
-    @keyframes drip {
-      0%, 100% { transform: translateY(0); }
-      50% { transform: translateY(10px); }
+    .pixel-sub {
+      font-family: 'VT323', monospace;
+      font-size: 90px;
+      fill: #ff0033;
+      text-anchor: middle;
+      letter-spacing: 2px;
+      text-shadow: 6px 6px 0px #660000;
     }
 
-    @keyframes glitch {
-      0%, 100% { transform: translate(0, 0); }
-      20% { transform: translate(-5px, 3px); opacity: 0.8; }
-      40% { transform: translate(5px, -2px); opacity: 1; }
-      60% { transform: translate(-3px, -3px); opacity: 0.9; }
-      80% { transform: translate(3px, 2px); opacity: 1; }
+    .drip { fill: #660000; }
+    .drip-light { fill: #ff0033; }
+    
+    .flicker { animation: pulse 3s infinite; }
+    
+    @keyframes pulse {
+      0%, 100% { opacity: 1; }
+      50% { opacity: 0.85; }
     }
   </style>
 
-  <rect width="1000" height="400" class="bg" />
+  <rect width="800" height="350" class="bg" />
+
+  <g class="flicker">
+    <text x="400" y="140" class="pixel-text">RED TEAMING</text>
+    <text x="400" y="240" class="pixel-sub">PENTESTING</text>
+  </g>
+
+  <g>
+    <rect x="180" y="150" width="12" height="35" class="drip" />
+    <rect x="200" y="150" width="12" height="60" class="drip-light" />
+    <rect x="240" y="150" width="12" height="25" class="drip" />
+    <rect x="310" y="150" width="12" height="80" class="drip-light" />
+    <rect x="350" y="150" width="12" height="40" class="drip" />
+    <rect x="420" y="150" width="12" height="55" class="drip" />
+    <rect x="480" y="150" width="12" height="90" class="drip-light" />
+    <rect x="560" y="150" width="12" height="30" class="drip" />
+    <rect x="620" y="150" width="12" height="70" class="drip-light" />
+    <rect x="680" y="150" width="12" height="40" class="drip" />
+
+    <rect x="190" y="250" width="12" height="45" class="drip" />
+    <rect x="230" y="250" width="12" height="85" class="drip-light" />
+    <rect x="280" y="250" width="12" height="35" class="drip" />
+    <rect x="340" y="250" width="12" height="75" class="drip" />
+    <rect x="410" y="250" width="12" height="50" class="drip-light" />
+    <rect x="460" y="250" width="12" height="95" class="drip" />
+    <rect x="530" y="250" width="12" height="40" class="drip-light" />
+    <rect x="590" y="250" width="12" height="80" class="drip" />
+    <rect x="650" y="250" width="12" height="30" class="drip-light" />
+  </g>
 
   <defs>
-    <pattern id="pixelgrid" width="10" height="10" patternUnits="userSpaceOnUse">
-      <rect width="12" height="12" fill="none" />
-      <line x1="0" y1="0" x2="10" y2="0" stroke="#0f0000" stroke-width="4" />
-      <line x1="0" y1="0" x2="0" y2="10" stroke="#0f0000" stroke-width="4" />
+    <pattern id="pixelgrid" width="8" height="8" patternUnits="userSpaceOnUse">
+      <rect width="8" height="8" fill="none" />
+      <line x1="0" y1="0" x2="8" y2="0" stroke="#000000" stroke-width="3" />
+      <line x1="0" y1="0" x2="0" y2="8" stroke="#000000" stroke-width="3" />
     </pattern>
-    
-    <linearGradient id="sliverGradient" x1="0%" y1="0%" x2="0%" y2="100%">
-      <stop offset="0%" style="stop-color:#d3d3d3;stop-opacity:1" />
-      <stop offset="60%" style="stop-color:#ff0000;stop-opacity:1" />
-      <stop offset="100%" style="stop-color:#8b0000;stop-opacity:1" />
-    </linearGradient>
   </defs>
 
-  <g class="layer-glitch">
-    <text x="450" y="120" class="pixel-text" fill="url(#sliverGradient)">RED TEAMING</text>
-    <text x="450" y="260" class="pixel-text" fill="url(#sliverGradient)">/ PENTESTING</text>
-  </g>
-
-  <g class="layer-drip">
-    <rect x="200" y="160" width="10" height="100" class="drip-block" animation-delay="0.1s"/>
-    <rect x="220" y="160" width="10" height="120" class="drip-block" animation-delay="0.5s"/>
-    <rect x="240" y="160" width="10" height="80" class="drip-block" animation-delay="0.3s"/>
-    <rect x="500" y="300" width="10" height="100" class="drip-block" animation-delay="0.2s"/>
-    <rect x="520" y="300" width="10" height="60" class="drip-block" animation-delay="0.6s"/>
-    <rect x="800" y="300" width="10" height="90" class="drip-block" animation-delay="0.4s"/>
-  </g>
-
-  <rect width="1000" height="400" fill="url(#pixelgrid)" pointer-events="none" />
+  <rect width="800" height="350" fill="url(#pixelgrid)" pointer-events="none" />
 </svg>
