@@ -20,8 +20,6 @@
       opacity: 0.8;
       animation: drip 3s infinite;
     }
-
-    .layer-glitch { animation: glitch 0.3s infinite step-end; }
     
     @keyframes drip {
       0%, 100% { transform: translateY(0); }
