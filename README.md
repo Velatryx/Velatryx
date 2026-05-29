@@ -3,33 +3,32 @@
 </p>
 
 <p align="center">
-  <code>⛤ memory safety is a myth ⛤</code>
+  <code>⛤ BLOOD IN THE LOGS ⛤</code>
   <br>
-  <img src="https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/solar.png" width="100%">
+  <img src="data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='800' height='2'><rect width='100%' height='100%' fill='%235a0000'/></svg>" width="100%">
 </p>
 
 <p align="center">
-  <code>[ ⛤about ]</code> &nbsp;&nbsp;&nbsp;&nbsp;
-  <code>[ ⛤arsenal ]</code> &nbsp;&nbsp;&nbsp;&nbsp;
-  <code>[ ⛤forensics ]</code> &nbsp;&nbsp;&nbsp;&nbsp;
-  <code>[ ⛤exploits ]</code> &nbsp;&nbsp;&nbsp;&nbsp;
-  <code>[ ⛤loot ]</code> &nbsp;&nbsp;&nbsp;&nbsp;
-  <code>[ ⛤certifications ]</code>
+  <code><a href="#about" style="color:#d30000; text-decoration:none;">[ ⛤about ]</a></code> &nbsp;&nbsp;&nbsp;&nbsp;
+  <code><a href="#arsenal" style="color:#d30000; text-decoration:none;">[ ⛤arsenal ]</a></code> &nbsp;&nbsp;&nbsp;&nbsp;
+  <code><a href="#forensics" style="color:#d30000; text-decoration:none;">[ ⛤forensics ]</a></code> &nbsp;&nbsp;&nbsp;&nbsp;
+  <code><a href="#operations" style="color:#d30000; text-decoration:none;">[ ⛤operations ]</a></code> &nbsp;&nbsp;&nbsp;&nbsp;
+  <code><a href="#loot" style="color:#d30000; text-decoration:none;">[ ⛤loot ]</a></code>
 </p>
 
-<hr>
+<br>
 
 <table align="center" width="100%">
   <tr>
-    <td bgcolor="#000000">
-      <p align="center"><code>⛤ OFFENSIVE SECURITY RESEARCH & EXPLOIT DEVELOPMENT ⛤</code></p>
+    <td bgcolor="#000000" style="border: 1px solid #5a0000;">
+      <p align="center"><code style="color:#d30000;">⛤ OFFENSIVE SECURITY DIRECTIVE ⛤</code></p>
       <br>
-      <p>
-        Execution of advanced adversarial simulations, vulnerability discovery, and low-level exploit development. Primary focus on web application forensics, supply chain attack vectors, and process injection methodologies. Understanding the underlying mechanisms of system architecture — its faults, its structural defenses, its layout — is the fundamental prerequisite to complete system compromise.
+      <p style="color:#a3a3a3;">
+        [YOUR CUSTOM MISSION STATEMENT HERE - Example: Execution of advanced adversarial simulations and low-level exploit development. Specializing in web application forensics, supply chain attack vectors, and process injection. The machine has flaws; exploiting its structural defenses is the path to root.]
       </p>
       <br>
       <p align="right">
-        <img src="https://komarev.com/ghpvc/?username=Velatryx&style=for-the-badge&color=000000&label=CONNECTION_ESTABLISHED" alt="Profile Views">
+        <img src="https://komarev.com/ghpvc/?username=YOUR_USERNAME_HERE&style=for-the-badge&color=8b0000&label=SYS_VIEWS" alt="Profile Views">
       </p>
     </td>
   </tr>
@@ -38,21 +37,21 @@
 <br>
 
 <p align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=VT323&size=28&duration=3000&pause=1000&color=FFFFFF&center=true&vCenter=true&width=800&lines=Initializing+C2+infrastructure...;Bypassing+EDR+hooks+via+process+injection...;Exploiting+buffer+overflow+in+host+memory...;Extracting+web+forensics+logs...;Root+access+granted." />
+  <img src="https://readme-typing-svg.demolab.com?font=Press+Start+2P&size=16&duration=4000&pause=1000&color=d30000&center=true&vCenter=true&width=800&lines=Initializing+C2+infrastructure...;Analyzing+supply+chain+dependencies...;Executing+process+injection...;Extracting+web+forensics+logs...;Memory+corruption+successful.;Root+access+granted." />
 </p>
 
-<img src="https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/accent.png" width="100%">
+<img src="data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='100%' height='2'><rect width='100%' height='100%' fill='%235a0000'/></svg>" width="100%">
 
-## 📂 CURRENT OPERATIONS & INFRASTRUCTURE
+<h2 id="operations" style="color:#d30000;">📂 ACTIVE OPERATIONS</h2>
 
-<p align="left">
-  <img src="https://github-readme-stats.vercel.app/api?username=Velatryx&show_icons=true&theme=dark&hide_border=true&bg_color=000000&text_color=ffffff&icon_color=ffffff&title_color=ffffff" height="150px"/>
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=Velatryx&theme=dark&hide_border=true&background=000000&text=ffffff&ring=ffffff&fire=ffffff&currStreakNum=ffffff" height="150px"/>
+<p align="center">
+  <img src="https://github-readme-stats.vercel.app/api?username=YOUR_USERNAME_HERE&show_icons=true&theme=radical&hide_border=true&bg_color=000000&text_color=a3a3a3&icon_color=d30000&title_color=d30000&ring_color=d30000" height="160px"/>
+  <img src="https://github-readme-streak-stats.herokuapp.com/?user=YOUR_USERNAME_HERE&theme=radical&hide_border=true&background=000000&text=a3a3a3&ring=5a0000&fire=d30000&currStreakNum=d30000&sideNums=a3a3a3" height="160px"/>
 </p>
 
-### 🛠️ CORE ARSENAL
+<h3 id="arsenal" style="color:#d30000;">🛠️ TACTICAL ARSENAL</h3>
 ```text
-[Exploit Dev]  -> C / C++ / Assembly (x86_64)
-[Automation]   -> Python / Bash
-[Environments] -> Fedora Workstation (Primary) / Kali Linux (Tactical)
-[Focus Areas]  -> Buffer Overflows, LFI, XSS Bypasses, Supply Chain Analysis
+[Offensive Dev] -> C / C++ / Assembly (x86_64)
+[Scripting]     -> Python / Bash
+[Host Systems]  -> Fedora Workstation (Primary) / Kali Linux (Tactical)
+[Disciplines]   -> Process Injection, LFI/RFI, Buffer Overflows, XSS Bypasses
