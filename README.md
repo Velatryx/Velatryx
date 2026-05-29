@@ -36,21 +36,6 @@
 <img src="data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='1000' height='2'><rect width='100%' height='100%' fill='%235a0000'/></svg>" width="100%">
 <br>
 
-## 📂 CLASSIFIED OPERATIONS & ARSENAL
-
-<p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=YOUR_GITHUB_USERNAME_HERE&show_icons=true&theme=radical&hide_border=true&bg_color=000000&text_color=d3d3d3&icon_color=ff0000&title_color=ff0000&ring_color=5a0000" height="160px"/>
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=YOUR_GITHUB_USERNAME_HERE&theme=radical&hide_border=true&background=000000&text=d3d3d3&ring=5a0000&fire=ff0000&currStreakNum=ff0000&sideNums=d3d3d3" height="160px"/>
-</p>
-
-### ⚔️ CORE TOOLKIT
-
-```text
-[Lang]       -> Go / C / C++ / Python / Assembly (x86_64)
-[Infra]      -> Sliver C2 / Cobalt Strike / Mythic / Metasploit
-[OS]         -> Fedora Workstation (Operational) / Kali Linux (Tactical) / Windows Server 2022 (Target)
-[Disciplines]-> Process Injection, Evasion Tradecraft, Kernel Exploitation, Web Forensics<p align="center">
-  <img src="./header.svg" alt="Red Teaming / Pentesting" width="100%">
 </p>
 
 <p align="center">
