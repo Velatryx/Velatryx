@@ -1,46 +1,71 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 250" width="100%" height="100%">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 400" width="100%" height="100%">
   <style>
-    @import url('https://fonts.googleapis.com/css2?family=VT323&amp;display=swap');
+    @import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&amp;display=swap');
     
     .bg { fill: #000000; }
     
     .pixel-text {
-      font-family: 'VT323', monospace;
-      font-size: 130px;
-      fill: #ffffff;
-      letter-spacing: 8px;
+      font-family: 'Press Start 2P', monospace;
+      font-size: 80px;
+      fill: #ff0000;
+      letter-spacing: 12px;
       text-anchor: middle;
       dominant-baseline: middle;
+      text-shadow: 4px 4px 0px #8b0000, 8px 8px 0px #5a0000;
     }
 
-    .layer-base { animation: flicker 2s infinite, glitch-skew 4s infinite; }
+    /* Massive Drip Effect using chunky rectangles */
+    .drip-block {
+      fill: #5a0000;
+      opacity: 0.8;
+      animation: drip 3s infinite;
+    }
+
+    .layer-glitch { animation: glitch 0.3s infinite step-end; }
     
-    @keyframes flicker {
-      0%, 19%, 21%, 23%, 25%, 54%, 56%, 100% { opacity: 1; filter: drop-shadow(0px 0px 2px rgba(255,255,255,0.4)); }
-      20%, 24%, 55% { opacity: 0.6; filter: drop-shadow(0px 4px 5px rgba(255,255,255,0.2)); }
+    @keyframes drip {
+      0%, 100% { transform: translateY(0); }
+      50% { transform: translateY(10px); }
     }
 
-    @keyframes glitch-skew {
-      0% { transform: skew(0deg); }
-      5% { transform: skew(-5deg); }
-      10% { transform: skew(5deg); }
-      15% { transform: skew(0deg); }
-      100% { transform: skew(0deg); }
+    @keyframes glitch {
+      0%, 100% { transform: translate(0, 0); }
+      20% { transform: translate(-5px, 3px); opacity: 0.8; }
+      40% { transform: translate(5px, -2px); opacity: 1; }
+      60% { transform: translate(-3px, -3px); opacity: 0.9; }
+      80% { transform: translate(3px, 2px); opacity: 1; }
     }
   </style>
 
-  <rect width="1200" height="250" class="bg" />
+  <rect width="1000" height="400" class="bg" />
 
   <defs>
-    <pattern id="pixelgrid" width="4" height="4" patternUnits="userSpaceOnUse">
-      <line x1="0" y1="0" x2="4" y2="0" stroke="#050505" stroke-width="2" />
-      <line x1="0" y1="0" x2="0" y2="4" stroke="#050505" stroke-width="2" />
+    <pattern id="pixelgrid" width="10" height="10" patternUnits="userSpaceOnUse">
+      <rect width="12" height="12" fill="none" />
+      <line x1="0" y1="0" x2="10" y2="0" stroke="#0f0000" stroke-width="4" />
+      <line x1="0" y1="0" x2="0" y2="10" stroke="#0f0000" stroke-width="4" />
     </pattern>
+    
+    <linearGradient id="sliverGradient" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#d3d3d3;stop-opacity:1" />
+      <stop offset="60%" style="stop-color:#ff0000;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#8b0000;stop-opacity:1" />
+    </linearGradient>
   </defs>
 
-  <g class="layer-base">
-    <text x="600" y="125" class="pixel-text">RED TEAMING / PENTESTING</text>
+  <g class="layer-glitch">
+    <text x="450" y="120" class="pixel-text" fill="url(#sliverGradient)">RED TEAMING</text>
+    <text x="450" y="260" class="pixel-text" fill="url(#sliverGradient)">/ PENTESTING</text>
   </g>
 
-  <rect width="1200" height="250" fill="url(#pixelgrid)" pointer-events="none" />
+  <g class="layer-drip">
+    <rect x="200" y="160" width="10" height="100" class="drip-block" animation-delay="0.1s"/>
+    <rect x="220" y="160" width="10" height="120" class="drip-block" animation-delay="0.5s"/>
+    <rect x="240" y="160" width="10" height="80" class="drip-block" animation-delay="0.3s"/>
+    <rect x="500" y="300" width="10" height="100" class="drip-block" animation-delay="0.2s"/>
+    <rect x="520" y="300" width="10" height="60" class="drip-block" animation-delay="0.6s"/>
+    <rect x="800" y="300" width="10" height="90" class="drip-block" animation-delay="0.4s"/>
+  </g>
+
+  <rect width="1000" height="400" fill="url(#pixelgrid)" pointer-events="none" />
 </svg>
