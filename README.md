@@ -1,4 +1,55 @@
 <p align="center">
+  <img src="./header.svg" alt="Red Teaming / Pentesting (Sliver C2 Aesthetic)" width="100%">
+</p>
+
+<p align="center">
+  <code>[*] STATUS: COMPROMISED</code> &nbsp;&nbsp; <code>[+] IMPLANTS: 124</code> &nbsp;&nbsp; <code>[+] SESSIONS: 3 ACTIVE</code>
+  <br>
+  <img src="data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='1000' height='2'><rect width='100%' height='100%' fill='%235a0000'/></svg>" width="100%">
+</p>
+
+<br>
+
+<p align="center">
+  <img src="https://readme-typing-svg.demolab.com?font=Press+Start+2P&size=16&duration=4000&pause=1000&color=d30000&center=true&vCenter=true&width=800&lines=sliver; [*]+Entering+interactive+console...; [*]+Loaded+124+implants...; [+] Generating+mTLS+implant+for+OS/Arch:+windows/amd64...; [+] Output+file:+implant.exe; [*]+Initializing+reverse+shell+session+1; [+] System+ compromised+--+Enjoy+your+root!" />
+</p>
+
+<br>
+
+<table align="center" width="100%">
+  <tr>
+    <td bgcolor="#000000" style="border: 2px solid #5a0000;">
+      <p align="center"><code style="color:#ff0000;">⛤ OFFENSIVE SECURITY OPERATIONAL DIRECTIVE ⛤</code></p>
+      <br>
+      <p style="color:#d3d3d3;">
+        Understanding the underlying mechanisms of system architecture — its faults, its structural defenses, its layout — is the fundamental prerequisite to complete system compromise.
+      </p>
+      <br>
+      <p style="color:#ff0000;">
+        I specialize in advanced adversary emulation, memory corruption exploit development, and web forensically evasive data exfiltration.
+      </p>
+    </td>
+  </tr>
+</table>
+
+<br>
+<img src="data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='1000' height='2'><rect width='100%' height='100%' fill='%235a0000'/></svg>" width="100%">
+<br>
+
+## 📂 CLASSIFIED OPERATIONS & ARSENAL
+
+<p align="center">
+  <img src="https://github-readme-stats.vercel.app/api?username=YOUR_GITHUB_USERNAME_HERE&show_icons=true&theme=radical&hide_border=true&bg_color=000000&text_color=d3d3d3&icon_color=ff0000&title_color=ff0000&ring_color=5a0000" height="160px"/>
+  <img src="https://github-readme-streak-stats.herokuapp.com/?user=YOUR_GITHUB_USERNAME_HERE&theme=radical&hide_border=true&background=000000&text=d3d3d3&ring=5a0000&fire=ff0000&currStreakNum=ff0000&sideNums=d3d3d3" height="160px"/>
+</p>
+
+### ⚔️ CORE TOOLKIT
+
+```text
+[Lang]       -> Go / C / C++ / Python / Assembly (x86_64)
+[Infra]      -> Sliver C2 / Cobalt Strike / Mythic / Metasploit
+[OS]         -> Fedora Workstation (Operational) / Kali Linux (Tactical) / Windows Server 2022 (Target)
+[Disciplines]-> Process Injection, Evasion Tradecraft, Kernel Exploitation, Web Forensics<p align="center">
   <img src="./header.svg" alt="Red Teaming / Pentesting" width="100%">
 </p>
 
